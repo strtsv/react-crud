@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 // import MainForm from './MainForm';
 // import AllUsers from './AllUsers';
-import ImmerComponent from "./ImmerComponent";
+// import ImmerComponent from "./components/ImmerComponent";
+import Holder from "./components/Holder";
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
       <div className="App">
         {/* <MainForm />
         <AllUsers /> */}
-        <ImmerComponent />
+        <Holder />
       </div>
     );
   }

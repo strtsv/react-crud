@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 
 import User from "./User";
 
-import EditComponent from "./EditComponent";
+import EditComponent from "./components/EditComponent";
 
 class AllUsers extends Component {
   render() {
